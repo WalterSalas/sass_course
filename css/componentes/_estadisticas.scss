@@ -5,10 +5,8 @@
 	padding-top: 15px;
 	margin: 0 auto;
 	justify-content: space-around;
-	border-radius: 20px;
-	background-color: $color_claro;
-	color: $color_primario;
-	font-family: $fuente2;
+    @include caja;
+
 	h3 {
 		font-weight: 600;
 		font-size: 20px;
