@@ -1,0 +1,22 @@
+$fuente1: 'Lato', sans-serif;
+$fuente2: 'Oswald', 'sans-serif';
+$color_primario: #333333;
+$color_claro: #ffffff;
+$color_secundario: #8841DA;
+$color_variacion: #3F579A;
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: $fuente1;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}

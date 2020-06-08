@@ -50,31 +50,10 @@ main {
   color: #ffffff;
 }
 
-.estadistica--perfil {
-  display: flex;
-  width: 50%;
-  height: 90px;
-  padding-top: 15px;
-  margin: 0 auto;
-  justify-content: space-around;
-  border-radius: 20px;
-  background-color: #ffffff;
-  color: #333333;
-  font-family: "Oswald", "sans-serif";
+.perfil__minibio {
+  margin: 0px auto;
+  padding-top: 20px;
 }
-.estadistica--perfil h3 {
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.estadistica--perfil span {
-  font-size: 12px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Oswald", "sans-serif";
-}
-
 .ubicacion--perfil {
   width: 50%;
   height: 90px;
@@ -103,7 +82,27 @@ main {
   font-family: "Oswald", "sans-serif";
 }
 
-.perfil__minibio {
-  margin: 0px auto;
-  padding-top: 20px;
+.estadistica--perfil {
+  display: flex;
+  width: 50%;
+  height: 90px;
+  padding-top: 15px;
+  margin: 0 auto;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "Oswald", "sans-serif";
+}
+.estadistica--perfil h3 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.estadistica--perfil span {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", "sans-serif";
 }
