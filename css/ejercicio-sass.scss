@@ -67,6 +67,7 @@ main {
 	justify-content: space-around;
 	border-radius: 20px;
 	background-color: $color_claro;
+	color: $color_primario;
 	font-family: $fuente2;
 	h3 {
 		font-weight: 600;
@@ -83,4 +84,41 @@ main {
 	}
 }
 
+.ubicacion--perfil{
+	width: 50%;
+	height: 90px;
+	margin: 30px auto 0 auto;
+	padding: 20px 0 0 50px;
+	border-radius: 20px;
+	background-color: $color_claro;
+	color: $color_primario;
+	i {
+		display: block;
+		float: left;
+		padding-right: 10px;
+		font-size: 40px;
+		color: $color_variacion;
+	}
+	h2{
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 20px;
+		font-family: $fuente2;
+	}
+	h3{
+		text-transform: uppercase;
+		font-size: 12px;
+		font-family: $fuente2;
+	}
+}
 
+.perfil__minibio{
+	margin: 0px auto;
+	padding-top: 20px;
+	h2 {
+		@extend .perfil__nombre;
+	}
+	h3 {
+		@extend .perfil__titulo;
+	}
+}
